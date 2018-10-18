@@ -1,0 +1,88 @@
+.type-12{
+    .boder{
+        padding: 0 15px 15px 15px;
+        background: #ffffff;
+        border: 2px solid #e2eafd;
+        border-radius: 4px;
+        margin-left:10px;
+        margin-right:10px;
+        margin-top:10px;
+        margin-bottom:10px;
+        .type{
+                text-align: center;
+                font-size: 50px;
+                padding-bottom: 25px;
+                margin: 30px;
+                font-weight: 700;
+                border-bottom: 1px solid #e2eafd;
+                color: cornflowerblue;
+                font-family: Montserrat;
+            }
+    }
+    .tieude{
+      text-align:center;
+    }
+    .class{
+        position: relative;
+        text-align: center;
+        padding-bottom: 20px;   
+        .images{
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+        .images:hover{
+        }
+        h3{
+            font-family: Montserrat;
+            color: cornflowerblue;
+            margin: 20px;
+
+        }
+        h3:hover{
+            color: #0000EE;
+        }
+        .overlays {
+          visibility: hidden;
+          position: absolute;
+          bottom: 5%;
+          left: 0;
+          right: 0;
+          background-color: transparent;
+          overflow: hidden;
+          width: 100%;
+          height: 0;
+          transition: .7s ease;
+
+
+            .content{
+                position: absolute;
+              color: white;
+              font-size: 20px;
+              position: absolute;
+              top: 30%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%);
+              text-align: center;
+            }
+        }
+
+        p{
+            overflow:hidden;
+            color: #000;
+            font:  16px Montserrat;
+            font-size: 15px;
+        }
+
+    }
+    .hover:hover .images{
+        opacity: 0.2;
+    }
+    .hover:hover .overlays {
+        visibility: visible;
+        height: 100%;
+  }
+
+
+}
